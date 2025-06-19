@@ -1,1 +1,264 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diyar Niyazov | Portfolio</title>
+    <style>
+      body {
+        background: linear-gradient(120deg, #e0e7ff 0%, #f8fafc 100%);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #222;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: #fff;
+        max-width: 440px;
+        width: 100%;
+        margin: 40px auto;
+        border-radius: 18px;
+        box-shadow: 0 6px 32px rgba(0, 0, 0, 0.15);
+        padding: 32px 28px 28px 28px;
+        text-align: center;
+      }
+      .profile-img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 18px;
+        border: 4px solid black;
+        box-shadow: 0 2px 12px rgba(99, 102, 241, 0.1);
+      }
+      h1 {
+        margin: 0 0 6px 0;
+        font-weight: 700;
+        font-size: 2.2rem;
+        color: navy;
+      }
+      h2 {
+        color: navy;
+        margin-top: 28px;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      p.intro {
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 1.08rem;
+        color: #555;
+        background: none;
+        padding: 0;
+      }
+      hr {
+        border: none;
+        border-top: 1.5px solid #e0e7ff;
+        margin: 22px 0 18px 0;
+      }
+      .about {
+        color: #444;
+        font-size: 1.05rem;
+        margin-bottom: 0;
+      }
+      table {
+        background: #f1f5f9;
+        color: #222;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin-top: 8px;
+        box-shadow: 0 1px 6px rgba(99, 102, 241, 0.07);
+      }
+      th,
+      td {
+        padding: 10px 6px;
+        font-size: 1rem;
+      }
+      tr:first-child {
+        background: #6366f1;
+        color: #fff;
+        font-weight: 600;
+      }
+      tr:not(:first-child):hover {
+        background: #e0e7ff;
+        transition: background 0.2s;
+      }
+      table, ul {
+  margin-bottom: 24px;
+}
+      @media (max-width: 500px) {
+        .container {
+          padding: 16px 4vw;
+        }
+        h1 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 1.1rem;
+        }
+        .profile-img {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="diyarniyazov.jpg"
+        alt="Diyar Niyazov"
+        class="profile-img"
+        onerror="this.style.display='none'"
+      />
+      <h1>Diyar Niyazov</h1>
+      <p class="intro"><b>Senior at Victor Senior High School</b></p>
+      <h2><i>Welcome!</i></h2>
+      <hr />
+      <h2>About Me</h2>
+      <p class="about">
+        I’m a high school student passionate about software development,
+        cybersecurity, and artificial intelligence.
+      </p>
+      <p>I enjoy solving problems through code and always learning!</p>
+      <hr />
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <td>Technical</td>
+          <td>Leadership</td>
+          <td>Interpersonal</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Team Management</td>
+          <td>Adaptability & Resilience</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Mentorship</td>
+          <td>Critical Thinking</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Accountability</td>
+          <td>Decision Making</td>
+        </tr>
+        <tr>
+          <td>GitHub</td>
+          <td>Collaboration</td>
+          <td>Problem Solving</td>
+        </tr>
+        <tr>
+          <td>Linux</td>
+          <td>Conflict Resolution</td>
+          <td>Organization</td>
+        </tr>
+        <tr>
+          <td>AI</td>
+          <td>Strategic Planning</td>
+          <td>Fluent in Russian</td>
+        </tr>
+      </table>
+      <h2>Experience</h2>
+      <h3>YMCA</h3>
+      <table>
+        <tr>
+          <td>Title</td>
+          <td>Dates</td>
+        </tr>
+        <tr>
+          <td>Lifeguarding Instructor</td>
+          <td>Feb 2025 - Present</td>
+        </tr>
+        <tr>
+          <td>Junior Lead Lifeguard</td>
+          <td>Feb 2025 - Present</td>
+        </tr>
+        <tr>
+          <td>Lifeguard</td>
+          <td>May 2024 - Present</td>
+        </tr>
+      </table>
+      <h3>Tops Friendly Markets</h3>
+      <table>
+        <tr>
+          <td>Title</td>
+          <td>Dates</td>
+        </tr>
+        <tr>
+          <td>Store Associate</td>
+          <td>June 2023 - June 2024</td>
+        </tr>
+      </table>
+      <h2>Education & Achievements</h2>
+      <h3>Victor Senior High School</h3>
+      <table>
+        <tr>
+          <td>Academics</td>
+          <td>Athletics</td>
+          <td>Leadership</td>
+          <td>Programs</td>
+          <td>Activities</td>
+        </tr>
+        <tr>
+          <td>GPA: 97.8</td>
+          <td>Varsity XC</td>
+          <td>Class President of 320+</td>
+          <td>Boys' State Delegate</td>
+          <td>Math Team</td>
+        </tr>
+        <tr>
+          <td>ACT: 34</td>
+          <td>Varsity Wrestling</td>
+          <td>Co-Founder of Tutoring Club</td>
+          <td>West Point SLE</td>
+          <td>Key Club</td>
+        </tr>
+        <tr>
+          <td>Honors: 7</td>
+          <td>Freestyle Team Captain</td>
+          <td>DECA Marketing Officer</td>
+          <td></td>
+          <td>Investing Club Team Captain</td>
+          </td>
+        </tr>
+        <tr>
+          <td>APs: 13 Dual Enrollment: 3</td>
+          <td>Varsity T&F</td>
+          <td>Superintendent's Leadership Councillor</td>
+          <td></td>
+          <td>Coding Club Team Captain</td>
+        </tr>
+      </table>
+      <h2>Awards</h2>
+      <ul>
+        <li>NYSPHSAA Scholar Athlete</li>
+        <li>AP Scholar</li>
+        <li>High Honor Roll (3 years)</li>
+        <li>Wrestling - "Die Hard Dedication"</li>
+        <li>Xerox Award for Innovation and Information Technology</li>
+        <li>DECA Regional Champion</li>
+      </ul>
+      <h2>Contact Me</h2>
+      <a
+        href="mailto:DiyarNiyazov04@gmail.com"
+        style="color: #6366f1; text-decoration: none; font-weight: 500"
+        >DiyarNiyazov04@gmail.com</a
+      ><br />
+      <a
+        href="https://linkedin.com/in/diyar-niyazov"
+        target="_blank"
+        style="color: #6366f1; text-decoration: none; font-weight: 500"
+        >linkedin.com/in/diyar-niyazov</a
+      >
+    </div>
+  </body>
+</html>
